@@ -1,0 +1,30 @@
+.banner {
+  background-size: cover;
+  height: calc(80vh);
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-black {
+  background:  image_url('mountain.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-paralax-black {
+  background:  black;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-paralax {
+  background:  image_url('mountain.png');
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

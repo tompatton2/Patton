@@ -1,0 +1,64 @@
+.title {
+  text-align: center;
+  max-width: 800px;
+  line-height: 38px;
+  font-size: 80px;
+  letter-spacing: 48px;
+  font-weight: lighter;
+}
+
+.test {
+  margin: 200px;
+}
+
+.title_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-banner {
+  max-width: 800px;
+  padding: 0px 30px;
+}
+
+.title__main {
+  font-size: 40px;
+  color: $dark-blue;
+  letter-spacing: 4.3px;
+  font-weight: bold;
+  margin-bottom: 33.5px;
+  text-align: center;
+  padding: 0px 30px;
+}
+
+.title__main-team {
+  font-size: 52px;
+  color: white;
+  // letter-spacing: 10px;
+}
+
+.title__sub {
+  font-size: 20px;
+  color: $black;
+}
+
+.title__sub-about {
+  font-size: 25px;
+  color: $black;
+  margin-top: 25px;
+  color: white;
+  line-height: 57px;
+  font-weight: lighter;
+}
+
+.line {
+  width: 60px;
+  border-top: 6px solid $aqua-blue;
+  height: 10px;
+}
+
+.line-white {
+  border-top: 6px solid white;
+}
